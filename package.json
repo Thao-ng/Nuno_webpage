@@ -1,0 +1,35 @@
+{
+  "name": "Nuno_webpage",
+  "version": "1.0.0",
+  "description": "Created basic webpage template with bootstrap, css and html (tutorial)",
+  "main": "index.js",
+  "scripts": {
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thao-ng/Nuno_webpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thao-ng/Nuno_webpage/issues"
+  },
+  "homepage": "https://github.com/Thao-ng/Nuno_webpage#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "autoprefixer": "^9.4.10",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "lodash-es": "^4.17.11",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
